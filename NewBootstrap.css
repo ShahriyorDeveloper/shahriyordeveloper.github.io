@@ -1,0 +1,513 @@
+:root{
+    --calc-1: calc(100% / 1);
+    --calc-2: clac(100% / 2);
+    --calc-3: calc(100% / 3);
+    --calc-4: clac(100% / 4);
+    --calc-5: calc(100% / 5);
+    --calc-6: clac(100% / 6);
+    --calc-7: calc(100% / 7);
+    --calc-8: clac(100% / 8);
+    --calc-9: calc(100% / 9);
+    --calc-10: clac(100% / 10);
+    --calc-11: calc(100% / 11);
+    --calc-12: clac(100% / 12);
+    --black-0percent:   #000;
+    --black-100percent: #111;
+    --black-90percent:  #222;
+    --black-80percent:  #333;
+    --black-70percent:  #444;
+    --black-60percent:  #555;
+    --black-50percent:  #667;
+    --black-40percent:  #777;
+    --black-30percent:  #888;
+    --black-20percent:  #999;
+    --red-0percent: #f00;
+    --red-10percent: #f11;
+    --red-20percent: #f22;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: var(--black-100percent);
+}
+.row{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.margintop-50px{
+    margin-top: 50px;
+}
+.margintop-100px{
+    margin-top: 100px;
+}
+.margintop-150px{
+    margin-top: 150px;
+}
+.margintop-200px{
+    margin-top: 200px;
+}
+.margintop-250px{
+    margin-top: 250px;
+}
+.margintop-300px{
+    margin-top: 300px;
+}
+.margintop-350px{
+    margin-top: 350px;
+}
+.margintop-400px{
+    margin-top: 400px;
+}
+.margintop-450px{
+    margin-top: 450px;
+}
+.margintop-500px{
+    margin-top: 500px;
+}
+.margintop-550px{
+    margin-top: 550px;
+}
+.margintop-600px{
+    margin-top: 600px;
+}
+.margintop-650px{
+    margin-top: 650px;
+}
+.margintop-700px{
+    margin-top: 700px;
+}
+.margintop-750px{
+    margin-top: 750px;
+}
+.margintop-800px{
+    margin-top: 8000px;
+}
+.margintop-850px{
+    margin-top: 850px;
+}
+.margintop-900px{
+    margin-top: 900px;
+}
+.margintop-950px{
+    margin-top: 950px;
+}
+.margintop-1000px{
+    margin-top: 1000px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p,b,i,u{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.displayflex{
+    display: flex;
+}
+.displayblock{
+    display: block;
+}
+.justifycontent-center{
+    justify-content: center;
+}
+.justifycontent-basline{
+    justify-content: baseline;
+}
+.justifycontent-end{
+    justify-content: end;
+}
+.justifycontent-flexend{
+    justify-content: flex-end;
+}
+.justifycontent-left{
+    justify-content: left;
+}
+.justifycontent-right{
+    justify-content: right;
+}
+.justifycontent-safe{
+    justify-content: safe;
+}
+.justifycontent-spacearound{
+    justify-content: space-around;
+}
+.justifycontent-spacebetween{
+    justify-content: space-between;
+}
+.justifycontent-spaceevenly{
+    justify-content: space-evenly;
+}
+.alignitems-center{
+    align-items: center;
+}
+.alignitems-baseline{
+    align-items: baseline;
+}
+.alignitems-flexend{
+    align-items: flex-end;
+}
+.alignitems-flexstart{
+    align-items: flex-start;
+}
+.alignitems-stretch{
+    align-items: stretch;
+}
+.textalign-center{
+    text-align: center;
+}
+.textalign-end{
+    text-align:  end;
+}
+.textalign-justify{
+    text-align: justify;
+}
+.textalign-left{
+    text-align: left;
+}
+.textalign-right{
+    text-align: right;
+}
+.textalign-start{
+    text-align: start;
+}
+button{
+    box-shadow: 1px 1px 4px var(--black-90percent);
+}
+button:hover{
+    box-shadow: 1px 1px 10px var(--black-0percent);
+}
+@media (max-width: 200px) {
+    h1, h2, h3, h4, h5, h6{
+        font-size: 18px;
+    }
+    p,u,i,b{
+        font-size: 10px;
+    }
+    input,button{
+        width: 50px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+    }
+}
+.marginleft-5{
+    margin-left: 5%;
+}
+.marginleft-10{
+    margin-left: 10%;
+}
+.marginleft-15{
+    margin-left: 15%;
+}
+.marginleft-20{
+    margin-left: 20%;
+}
+.marginleft-25{
+    margin-left: 25%;
+}
+.marginleft-30{
+    margin-left: 30%;
+}
+.marginleft-35{
+    margin-left: 35%;
+}
+.marginleft-40{
+    margin-left: 40%;
+}
+.marginleft-45{
+    margin-left: 45%;
+}
+.marginleft-50{
+    margin-left: 50%;
+}
+.marginleft-55{
+    margin-left: 55%;
+}
+.marginleft-60{
+    margin-left: 60%;
+}
+.marginleft-65{
+    margin-left: 65%;
+}
+.marginleft-70{
+    margin-left: 70%;
+}
+.marginleft-75{
+    margin-left: 75%;
+}
+.marginleft-80{
+    margin-left: 80%;
+}
+.marginleft-85{
+    margin-left: 85%;
+}
+.marginleft-90{
+    margin-left: 90%;
+}
+.marginleft-95{
+    margin-left: 95%;
+}
+.marginleft-100{
+    margin-left: 100%;
+}
+.marginright-5{
+    margin-right: 5%;
+}
+.marginright-10{
+    margin-right: 10%;
+}
+.marginright-15{
+    margin-right: 15%;
+}
+.marginright-20{
+    margin-right: 20%;
+}
+.marginright-25{
+    margin-right: 25%;
+}
+.marginright-30{
+    margin-right: 30%;
+}
+.marginright-35{
+    margin-right: 35%;
+}
+.marginright-40{
+    margin-right: 40%;
+}
+.marginright-45{
+    margin-right: 45%;
+}
+.marginright-50{
+    margin-right: 50%;
+}
+.marginright-55{
+    margin-right: 55%;
+}
+.marginright-60{
+    margin-right: 60%;
+}
+.marginright-65{
+    margin-right: 65%;
+}
+.marginright-70{
+    margin-right: 70%;
+}
+.marginright-75{
+    margin-right: 75%;
+}
+.marginright-80{
+    margin-right: 80%;
+}
+.marginright-85{
+    margin-right: 85%;
+}
+.marginright-90{
+    margin-right: 90%;
+}
+.marginright-95{
+    margin-right: 95%;
+}
+.marginright-100{
+    margin-right: 100%;
+}
+.margin-auto{
+    margin: auto;
+}
+.margin-5px{
+    margin: 5px;
+}
+.margin-10px{
+    margin: 10px;
+}
+.margin-15px{
+    margin: 15px;
+}
+.margin-20px{
+    margin: 20px;
+}
+.margin-25px{
+    margin: 25px;
+}
+.margin-30px{
+    margin: 30px;
+}
+.margin-5px{
+    margin: 35px;
+}
+.margin-10px{
+    margin: 40px;
+}
+.margin-5px{
+    margin: 45px;
+}
+.margin-10px{
+    margin: 50px;
+}
+.margin-5px{
+    margin: 55px;
+}
+.margin-10px{
+    margin: 60px;
+}
+.margin-5px{
+    margin: 65px;
+}
+.margin-10px{
+    margin: 70px;
+}
+.margin-5px{
+    margin: 75px;
+}
+.margin-10px{
+    margin: 80px;
+}
+.margin-5px{
+    margin: 85px;
+}
+.margin-10px{
+    margin: 90px;
+}
+.margin-5px{
+    margin: 95px;
+}
+.margin-10px{
+    margin: 100px;
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.orange{
+    color: orange;
+}
+.green{
+    color: green;
+}
+.whitesmoke{
+    color: whitesmoke;
+}
+.blue{
+    color: blue;
+}
+.yellow{
+    color: yellow;
+}
+.yellowgreen{
+    color: yellowgreen;
+}
+.aqua{
+    color: aqua;
+}
+.brown{
+    color: brown;
+}
+.orangered{
+    color: orangered;
+}
+.width-5{
+    width: 5%;
+}
+.width-10{
+    width: 10%;
+}
+.width-15{
+    width: 15%;
+}
+.width-20{
+    width: 20%;
+}
+.width-25{
+    width: 25%;
+}
+.width-30{
+    width: 30%;
+}
+.width-35{
+    width: 35%;
+}
+.width-40{
+    width: 40%;
+}
+.width-55{
+    width: 55%;
+}
+.width-60{
+    width: 60%;
+}
+.width-65{
+    width: 65%;
+}
+.width-70{
+    width: 70%;
+}
+.width-75{
+    width: 75%;
+}
+.width-80{
+    width: 80%;
+}
+.width-85{
+    width: 85%;
+}
+.width-90{
+    width: 90%;
+}
+.width-95{
+    width: 95%;
+}
+.width-100{
+    width: 100%;
+}
+.width-auto{
+    width: auto;
+}
+.height-5{
+    height: 5%;
+}
+.height-10{
+    height: 10%;
+}
+.height-15{
+    height: 15%;
+}
+.height-20{
+    height: 20%;
+}
+.height-25{
+    height: 25%;
+}
+.height-30{
+    height: 30%;
+}
+.height-35{
+    height: 35%;
+}
+.height-40{
+    height: 40%;
+}
+.height-45{
+    height: 45%;
+}
+.height-50{
+    height: 50%;
+}
+.height-55{
+    height: 55%;
+}
+.width-10px{
+    width: 10px;
+}
+.width-20px{
+    width: 20px;
+}
