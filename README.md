@@ -1,2 +1,0 @@
-# shavkatbekberfibekov
-my website
