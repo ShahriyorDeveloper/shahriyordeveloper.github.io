@@ -8,6 +8,7 @@
 <body>
   <div class="container">
 
+    <button id="darkModeToggle">Toggle Dark Mode</button>
     <div class="tag">WEB DESIGNER Shahriyor</div>
     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit voluptates, placeat eius ullam velit consequuntur non quam aliquid commodi illum?</h2>
 
@@ -63,6 +64,32 @@
     </section>
 
   </div>
+  <script>
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+
+    // Function to apply the stored theme
+    function applyStoredTheme() {
+      const isDarkMode = localStorage.getItem('darkMode') === 'true';
+      if (isDarkMode) {
+        body.classList.add('dark-mode');
+      } else {
+        body.classList.remove('dark-mode');
+      }
+    }
+
+    // Function to toggle dark mode
+    function toggleDarkMode() {
+      body.classList.toggle('dark-mode');
+      localStorage.setItem('darkMode', body.classList.contains('dark-mode'));
+    }
+
+    // Apply theme on initial load
+    applyStoredTheme();
+
+    // Add event listener to the toggle button
+    darkModeToggle.addEventListener('click', toggleDarkMode);
+  </script>
 </body>
 <footer class="contact">
   <p>📞 +998 978178408</p>

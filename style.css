@@ -1,8 +1,20 @@
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+  --text-color-inverted: #fff;
+  --background-color-inverted: #000;
+  --tag-background-color: #ffd700;
+  --highlight-background-color: #e6007e;
+  --secondary-text-color: #444;
+  --border-color: #ccc;
+  --tertiary-text-color: #333;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .container {
@@ -12,8 +24,8 @@ body {
 
 .tag {
   display: inline-block;
-  background-color: #ffd700;
-  color: #000;
+  background-color: var(--tag-background-color);
+  color: var(--background-color-inverted);
   padding: 3px 8px;
   font-size: 12px;
   font-weight: bold;
@@ -30,8 +42,8 @@ body {
 
 
 .highlight {
-  background-color: #e6007e;
-  color: #fff;
+  background-color: var(--highlight-background-color);
+  color: var(--text-color-inverted);
   padding: 3px 10px;
   border-radius: 8px;
 }
@@ -81,14 +93,26 @@ body {
 
 .description p {
   font-size: 13px;
-  color: #444;
+  color: var(--secondary-text-color);
 }
 .contact {
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid var(--border-color);
   text-align: center;
   font-size: 14px;
-  color: #333;
+  color: var(--tertiary-text-color);
+}
+
+.dark-mode {
+  --background-color: #121212;
+  --text-color: #e0e0e0;
+  --text-color-inverted: #121212;
+  --background-color-inverted: #e0e0e0;
+  --tag-background-color: #bb86fc;
+  --highlight-background-color: #03dac6;
+  --secondary-text-color: #a0a0a0;
+  --border-color: #444;
+  --tertiary-text-color: #b0b0b0;
 }
 
